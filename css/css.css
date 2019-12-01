@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #d6d5de;
+}
+
+.form {
+  padding: 10px;
+  min-width: 300px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b4ced242;
+}
+
+input[name="search"] {
+  margin-bottom: 5px;
+}
+
+input[value="Поиск"] {
+  background: #abe0c8;
+}
+
+input:focus {
+    outline: none;
+}
+
+.result {
+  margin: 15px;
+  width: 80%;
+}
+
+.listResult {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 15px 15px 15px 0;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.video-item {
+  width: 100%;
+}
+
+.video-item-img {
+  height: 76px;
+  width: 100%;
+}
+
+.video {
+  display: flex;
+  max-width: 768px;
+  min-width: 300px;
+  margin: 0 auto;
+}
